@@ -394,7 +394,7 @@ body {
 }
 
 .last_sec .price_nm{
-  font-size: 28vw;
+  font-size: 26vw;
   line-height: 0.7;
   font-weight: bolder;
 }
@@ -460,9 +460,7 @@ body {
 
 .last_sec .div_form .flex_price .img_productt .porductt{
   position: relative;
-  z-index: 10;
   width: 100%;
-  left: 0%;
   margin-top: 10px;
 }
 
