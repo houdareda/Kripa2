@@ -93,6 +93,7 @@ body {
   margin-bottom: 10px;
   position: relative;
   z-index: 10;
+  padding-right: 10px;
 }
 .hero .text p{
   color: #fff;
@@ -309,7 +310,7 @@ body {
 
 }
 .how_work .div_text h3{
-  font-size: 7vw;
+  font-size: 6.5vw;
   padding-right: 5%;
   line-height: 1.4;
   color: #C32025;
@@ -448,7 +449,6 @@ body {
 .last_sec .div_form .flex_price .img_productt{
   width: 53%;
   position: relative;
-  overflow: hidden;
 }
 .last_sec .div_form .flex_price .img_productt .bg_prodcut{
   position: absolute;
