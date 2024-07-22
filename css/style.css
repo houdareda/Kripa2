@@ -450,13 +450,6 @@ body {
   width: 53%;
   position: relative;
 }
-.last_sec .div_form .flex_price .img_productt .bg_prodcut{
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  z-index: 1;
-}
 
 .last_sec .div_form .flex_price .img_productt .porductt{
   position: relative;
