@@ -378,7 +378,7 @@ body {
   padding-top: 40px;
 }
 .last_sec .text_price .much_price h1{
-  font-size: 7.2vw;
+  font-size: 7vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -394,7 +394,7 @@ body {
 }
 
 .last_sec .price_nm{
-  font-size: 26vw;
+  font-size: 25vw;
   line-height: 0.7;
   font-weight: bolder;
 }
