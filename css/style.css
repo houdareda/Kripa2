@@ -1,19 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap");
-
-@font-face {
-  font-family: "Regular";
-  src: local("Regular"), url("../fonts/Regular.ttf");
-}
-
 @font-face {
   font-family: "Bold";
   src: local("Bold"), url("../fonts/Bold.ttf");
 }
 
-@font-face {
-  font-family: "Medium";
-  src: local("Medium"), url("../fonts/Medium.ttf");
-}
+
+
 
 
 * {
@@ -24,6 +15,19 @@
   list-style: none;
   text-decoration: none;
 }
+
+@font-face {
+  font-family: "Regular";
+  src: local("Regular"), url("../fonts/Regular.ttf");
+}
+
+
+
+@font-face {
+  font-family: "Medium";
+  src: local("Medium"), url("../fonts/Medium.ttf");
+}
+
 
 .f_Regular{
   font-family: "Regular",sans-serif;
@@ -42,7 +46,7 @@ html {
 
 body {
   direction: rtl;
-  background: url(../img/bg_body.png);
+  background: url(../img/bg_body.webp);
   background-position: center;
   background-size: cover;
 }
@@ -142,7 +146,7 @@ body {
 /* start result */ 
 
 .result{
-  background: url(../img/bg_result.png);
+  background: url(../img/bg_result.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -196,9 +200,7 @@ body {
 /* Start Doctor */ 
 
 
-.doctor .btn2{
 
-}
 .doctor .btn2 .btn{
   background: linear-gradient(to left ,#FFFFFF ,#CAC9C9);
   color: #CD2026;
@@ -295,7 +297,7 @@ body {
 /* Start result*/ 
 
 .how_work{
-  background: url(../img/bg_how_work.png);
+  background: url(../img/bg_how_work.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -349,7 +351,7 @@ body {
 /* last section */
 
 .last_sec {
-  background: url(../img/bg_form.png);
+  background: url(../img/bg_form.jpg);
   background-size: cover;
   background-position: top left;
 }
@@ -379,10 +381,6 @@ body {
 }
 .last_sec .text_price .much_price h1{
   font-size: 6.9vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
   line-height: 0.8;
 
 }
@@ -563,19 +561,147 @@ body {
 }
 
 
-@media (min-width:500px) {
+@media (min-width:650px) {
+
+
+  .hero .text p{
+    font-size: 30px;
+  }
+  .hero .product{
+    width: 23%;
+  }
+
+  .hero ul li{
+    font-size: 20px;
+    text-align: center;
+    width: max-content;
+ 
+  }
+  
+  .hero ul li.li1{
+    text-align: center;
+    margin: 5px auto 5px auto;
+    border-radius: 20px;
+    border: 1px solid #000;
+    padding: 10px 15px 14px 15px;
+  }
+  .hero ul li.li2{
+    text-align: center;
+    margin: 5px auto 5px auto;
+    border-radius: 20px;
+    border: 1px solid #000;
+    padding: 10px 15px 14px 15px;
+  }
+
+  .div-btn .btn{
+    width: max-content;
+    padding: 8px 40px 13px;
+    font-size: 20px;
+  }
+
+
+
+
+
+
+
+
+
+  .result .flex_result{
+    justify-content: space-between;
+  }
+  .result .flex_result .div_img{
+    width: 300px;
+  }
+  .result .flex_result .text{
+    font-size: 30px;
+    padding-top: 100px;
+    padding-right: 50px;
+  }
+
+  .result .img_result{
+    width: 80%;
+    margin-inline: auto;
+    margin-top: -120px;
+  }
+
+
+
+
+
+  .doctor .div_img{
+    width: 250px;
+  }
+  .doctor .div_text .top_sec{
+    width: calc(100% - 125px);
+  }
+
+  .doctor .div_text .top_sec h3{
+    font-size: 35px;
+  }
+  .doctor .div_text .top_sec p{
+    font-size: 24px;
+  }
+  .doctor .div_text{
+    padding-right: 10%;
+  }
+
+  .doctor ul li{
+    font-size: 24px;
+  }
+
+  .doctor .sm_p{
+    font-size: 25px;
+  }
+
+
+
+
+  .how_work .first_Sec{
+    justify-content: space-between;
+  }
+
+  .how_work .div_text h3{
+    font-size: 35px;
+    padding-right: 15%;
+  }
+  .how_work .div_img{
+    width: 40%;
+  }
+  .how_work p{
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+
+
+
+
+
+
+
+
+
 
 
 
 
   .last_sec .div_form .flex_price .img_productt{
-    width: 200px;
+    width: 250px;
   }
   .last_sec .div_form .flex_price{
     justify-content: space-between;
   }
   .last_sec .div_form .top_img_l{
-    width: 200px;
+    width: 100px;
+  }
+
+  .last_sec .text_delvery{
+    text-align: right;
+    padding-inline: 80px 25px;
+
+  }
+  .last_sec .text_delvery{
+    font-size: 22px;
   }
 
   .last_sec .div_form .content p{
@@ -600,7 +726,8 @@ body {
   }
   .last_sec .text_delv{
     width: max-content;
-    padding-inline: 40px 25px;
+    padding-inline: 80px 25px;
+    margin-bottom: 20px;
   }
   .last_sec .text_price{
     width: 50%;
@@ -612,10 +739,11 @@ body {
     font-size: 4.5vw;
   }
   .last_sec .discount .sm_p_discount p{
-    font-size: 2.8vw;
+    font-size: 2.6vw;
   }
   .last_sec .discount h4{
-    font-size: 5.8vw;
+    font-size: 5vw;
+    margin-top: -15px;
   }
   .last_sec .div_form form input{
     width: 80%;
@@ -624,17 +752,162 @@ body {
 }
 
 
+.product2_in_pc{
+  display: none;
+}
 @media (min-width:1000px) {
+
+  .hero .top_img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 110px;
+  }
+  .hero .top_img img{
+    height: 100%;
+    object-fit: cover;
+    height: 100%;
+    width: 50%;
+  }
+  .hero .product{
+    display: none;
+  }
+  .hero .text{
+    width: 50%;
+    border-bottom: 0;
+    box-shadow: none;
+    margin-top: 0;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+  }
+ 
+  .flex_item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+  }
+  .product2_in_pc{
+    display: block;
+    width: 250px;
+  }
+
+  .div-btn .btn{
+    font-size: 24px;
+  }
+  .hero ul li{
+    margin-bottom: 15px !important;
+  }
+
+
+  .result .flex_result .text{
+    text-align: center;
+  }
+
+  .result .img_result{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .result .img_result img{
+    width: 47%;
+  }
+  .result .img_result{
+    width: 100%;
+  }
+
+
+
+
+
+
+
+  .flex_section_1{
+    display: flex;
+
+  }
+
+  .doctor{
+    width: 50%;
+  }
+  .how_work{
+    width: 50%;
+  }
+
+  .doctor ul li{
+    font-size: 20px;
+  }
+  .doctor .div_img{
+    width: 230px;
+  }
+
+  .doctor .div_img img{
+    width: 100%;
+  }
+  .how_work p{
+    font-size: 27px;
+  }
+  .doctor .sm_p{
+    font-size: 20px;
+  }
+
+
+
+
+
+
+
+
+
+
+
 
 
   .last_sec{
+    width: 100%;
+  }
+
+  .last_sec .div_form{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 5%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .last_sec .div_form .div_flex{
+    width: 45%;
+  }
+
+  .last_sec form .div-btn .btn{
+    width: max-content;
+    padding-inline: 30px;
+  }
+  .last_sec .div_form .flex_price{
     width: 50%;
   }
+
+  .last_sec .text_delvery{
+    font-size: 18px;
+    padding-inline: 0px;
+  }
+  .last_sec .text_price{
+    text-align: right;
+  }
+  .last_sec .discount{
+   justify-content: start;
+  }
+
+
+
+
   .last_sec .price_nm{
     font-size: 120px;
   }
   .last_sec .text_price .much_price h1{
-    font-size: 22px;
+    font-size: 38px;
   }
   .last_sec .discount .sm_p_discount p{
     font-size: 18px;
@@ -645,9 +918,11 @@ body {
   .last_sec .text_delv{
     padding: 8px 15px;
     margin-top: 10px;
+    border-radius: 10px;
   }
   .last_sec .sm-p{
     font-size: 1vw;
+    margin-bottom: 10px;
   }
   .last_sec .footer .boxs .box p{
     font-size: 14px;
@@ -660,6 +935,31 @@ body {
     padding-top: 20px;
   }
 
+  .last_sec .div_form form input{
+    margin-bottom: 25px;
+  }
+
+  .footer{
+    width: 100%;
+    margin: auto;
+  }
+  .last_sec .footer .boxs{
+    justify-content: center;
+    gap: 100px;
+  }
+  .last_sec .footer .boxs .box{
+    background: #fff;
+    width: max-content;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .last_sec .footer .boxs .box p{
+    font-size: 18px;
+  }
+  .last_sec .footer .boxs .box img{
+    height: 30px;
+  }
+
 }
 
 @media (min-width:1350px) {
@@ -667,7 +967,25 @@ body {
   .last_sec .div_form form{
     width: 500px;
   }
-
+  .last_sec .price_nm{
+    font-size: 160px;
+  }
+  .last_sec .text_price .much_price h1{
+    font-size: 50px;
+  }
+  .last_sec .discount .sm_p_discount p{
+    font-size: 25px;
+  }
+  .last_sec .text_delvery{
+    font-size: 25px;
+  }
+  .last_sec .text_delv p{
+    font-size: 22px;
+  }
+  .last_sec .div_form .flex_price .img_productt{
+    width: 280px;
+  }
+  
 }
 
 
@@ -723,7 +1041,7 @@ body.thanks_page_page{
 
 @media (min-width:500px) {
   body.thanks_page_page{
-    background: url(../img/hero.jpg);
+    background: linear-gradient(#00000068,#00000068),url(../img/lion.jpg);
     background-size: cover;
     background-position: center;
     min-height: 100vh;
