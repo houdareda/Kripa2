@@ -392,21 +392,23 @@ body {
 }
 
 .last_sec .price_nm{
-  font-size: 25vw;
-  line-height: 0.7;
+  font-size: 27vw;
+  line-height: 1;
   font-weight: bolder;
+ 
 }
 .last_sec .discount{
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 5px;
+  margin-top: 10px;
 }
 
 
 .last_sec .discount h4{
   font-size: 3.6vw;
-  margin-top: -5px;
+
 }
 .last_sec .discount .sm_p_discount p{
   font-size: 3.7vw;
